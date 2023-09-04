@@ -8,7 +8,7 @@ import {searchedMessages} from "/manual_qa_test/js/ui/ui-elements.js";
 let transformer = {};
 
 const apiBaseConnection = async (link, type, query) => {
-    return await fetch(`${link}/${type}?${query}`, {method: 'GET'});
+    return await fetch(`${link}/${type}?${query}&login=manual_qa_test&pass=i_like_boosta`, {method: 'GET'});
 }
 
 const fetchData = async (link, type, query) => {
