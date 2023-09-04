@@ -1,5 +1,5 @@
-import {dateToHoursFormatter} from "../../formatters/date-fromatter.js";
-import {changeFavouriteIconIfExistOnStore, favouriteAdd, removeNotAddedFavouriteText} from "../ui-actions/favourite.js";
+import {dateToHoursFormatter} from "/manual_qa_test/js/formatters/date-fromatter.js";
+import {changeFavouriteIconIfExistOnStore, favouriteAdd, removeNotAddedFavouriteText} from "/manual_qa_test/js/ui/ui-actions/favourite.js";
 
 
 export const appendMessagesList = (objectList, element) => {

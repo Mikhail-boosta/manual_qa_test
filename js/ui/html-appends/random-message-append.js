@@ -1,6 +1,6 @@
-import {randomMessages} from "../ui-elements.js";
-import {dateToHoursFormatter} from "../../formatters/date-fromatter.js";
-import {changeFavouriteIconIfExistOnStore} from "../ui-actions/favourite.js";
+import {randomMessages} from "/manual_qa_test/js/ui/ui-elements.js";
+import {dateToHoursFormatter} from "/manual_qa_test/js/formatters/date-fromatter.js";
+import {changeFavouriteIconIfExistOnStore} from "/manual_qa_test/js/ui/ui-actions/favourite.js";
 
 
 export const appendRandomMessage = (
