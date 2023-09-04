@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/media.css"/>
+
+    <title>Chuck Norris App</title>
+</head>
+<body>
+<div class="container">
+    <div class="app">
+        <div class="title">
+            <div class="text">MSI 2020</div>
+            <div class="open-menu" id="BurgerMenu">
+                <img class="burger-icon" alt="Burger Icon" src="../assets/icons/burgerFilled.svg">
+                <span class="menu-text">Favourite</span>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="description-title">Hey!</div>
+            <div class="description-text">Let’s try to find a joke for you:</div>
+        </div>
+
+        <div class="select-type">
+            <div class="select">
+                <input id="RadioButtonRandom" type="radio" name="radio" checked/>
+                <label class="select-text" for="RadioButtonRandom">Random</label>
+            </div>
+            <div class="select">
+                <input id="RadioButtonCategories" type="radio" name="radio"/>
+                <label class="select-text" for="RadioButtonCategories">From categories</label>
+            </div>
+        </div>
+
+        <div class="toggles" id="Toggle">
+            <div class="toggle active">
+                <span class="toggle-text">Animal</span>
+            </div>
+            <div class="toggle">
+                <span class="toggle-text">Career</span>
+            </div>
+            <div class="toggle">
+                <span class="toggle-text">Celebrity</span>
+            </div>
+            <div class="toggle">
+                <span class="toggle-text">Dev</span>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="select">
+                <input id="RadioButtonSearch" type="radio" name="radio"/>
+                <label class="select-text" for="RadioButtonSearch">Search</label>
+            </div>
+
+            <div class="search-input-box">
+                <label>
+                    <input class="search-input" id="Search" type="text" placeholder="Free text search..."/>
+                </label>
+            </div>
+        </div>
+
+        <button class="get-btn" id="Button">Get a joke</button>
+
+        <div class="messages" id="RandomMessages">
+            <div class="message">
+                <div class="message-header">
+                    <img class="message-favorite-icon" alt="Favourite Icon" src="../assets/icons/favouriteOutline.svg"/>
+                </div>
+                <div class="message-body">
+                    <div class="message-icon">
+                        <img alt="Message Icon" src="../assets/icons/messageOutline.svg"/>
+                    </div>
+                    <div class="message-info">
+                        <div class="message-top-info">
+                            <div class="message-info-id">
+                                <span class="message-id">ID:</span>
+                                <a class="message-link" href="/">
+                                    <span class="message-link-code">XNaAxUduSw6zANDaIEab7A</span>
+                                    <img class="message-link-icon" alt="Link Icon"
+                                         src="../assets/icons/linkOutline.svg"/>
+                                </a>
+                            </div>
+                            <div class="message-info-description">
+                                No one truly knows who's Chuck Norris' real father. No one is biologically strong enough for
+                                this. He must've conceived himself.
+                            </div>
+                        </div>
+                        <div class="message-bottom-info">
+                            <div class="message-date">
+                                Last update: <span class="message-time">1923 hours ago</span>
+                            </div>
+                            <div class="message-category">Celebrity</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="message-preloader" id="Preloader">
+                <div class="preloader"></div>
+            </div>
+        </div>
+
+        <div class="messages searched-box" id="SearchedMessages">
+            <div class="searched-messages-not-found" id="SearchedNotFound">
+                Searched jokes ended here. Try found something new. 😌
+            </div>
+        </div>
+    </div>
+
+    <div class="favorite" id="FavouriteContainer">
+        <div class="favorite-title">
+            <img id="CloseMenu" class="close-icon" alt="Close Icon" src="../assets/icons/closeFilled.svg">
+            Favourite
+        </div>
+
+        <div class="favourite-messages-not-added" id="FavoriteNotAdded">
+            Favourite jokes not added yet 💔
+        </div>
+
+        <div class="messages" id="FavouriteMessages">
+            <div class="message">
+                <div class="message-header">
+                    <img class="message-favorite-icon" alt="Favourite Icon" src="../assets/icons/favouriteFilled.svg"/>
+                </div>
+                <div class="message-body">
+                    <div class="message-icon">
+                        <img alt="Message Icon" src="../assets/icons/messageOutline.svg"/>
+                    </div>
+                    <div class="message-info">
+                        <div class="message-top-info">
+                            <div class="message-info-id">
+                                <span class="message-id">ID:</span>
+                                <a class="message-link" href="/">
+                                    XNaAxUduSw6zANDaIEab7A
+                                    <img class="message-link-icon" alt="Link Icon"
+                                         src="../assets/icons/linkOutline.svg"/>
+                                </a>
+                            </div>
+                            <div class="message-info-description">
+                                No one truly knows who's Chuck Norris' real father. No one is biologically strong enough
+                                for
+                                this. He must've conceived himself.
+                            </div>
+                        </div>
+                        <div class="message-bottom-info">
+                            <div class="message-date">
+                                Last update: <span class="message-time">1923 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="disabled-shadow" id="BurgerShadow"></div>
+</div>
+
+<script type="module" src="../js/app.js"></script>
+</body>
+</html>
+
