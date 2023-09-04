@@ -1,6 +1,6 @@
 import {favoriteNotAdded, favouriteList} from "/manual_qa_test/js/ui/ui-elements.js";
 import {checkIfFavouriteIndexExist, storeFavouriteObject} from "/manual_qa_test/js/store/favourite-store.js";
-import {transformer} from "/manual_qa_test/js/api/api/api-get-json.js";
+import {transformer} from "/manual_qa_test/js/api/api-get-json.js";
 import {appendMessagesList} from "/manual_qa_test/js/ui/html-appends/message-list-append.js";
 import {favouriteMessages} from "/manual_qa_test/js/ui/ui-elements.js";
 import {storedObjectArray} from "/manual_qa_test/js/store/favourite-store.js";

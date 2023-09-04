@@ -1,5 +1,5 @@
 import 'isomorphic-fetch';
-import {apiBaseConnection} from "../../api/api-get-json";
+import {apiBaseConnection} from "/manual_qa_test/js/api/api-get-json";
 
 
 test('Check id connection status to endpoint [Random 200]', async () => {
