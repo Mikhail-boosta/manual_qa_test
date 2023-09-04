@@ -17,14 +17,6 @@ export const appendMessagesList = (objectList, element) => {
                 </div>
                 <div class="message-info">
                     <div class="message-top-info">
-                        <div class="message-info-id">
-                            <span class="message-id">ID:</span>
-                            <a class="message-link" href="${value.Url}">
-                                <span class="message-link-code">${value.Id}</span>
-                                <img class="message-link-icon" alt="Link Icon"
-                                     src="/manual_qa_test/assets/icons/linkOutline.svg"/>
-                            </a>
-                        </div>
                         <div class="message-info-description">
                             ${value.Value}
                         </div>
