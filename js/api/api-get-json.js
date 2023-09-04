@@ -1,8 +1,8 @@
-import {jsonTransformerFormatter, jsonTransformerFormatterArray} from './transformers/api-json-transformer.js';
-import {appendRandomMessage} from "../ui/html-appends/random-message-append.js";
-import {appendMessagesList} from "../ui/html-appends/message-list-append.js";
-import {afterLoad} from "../ui/ui-actions/preloader.js";
-import {searchedMessages} from "../ui/ui-elements.js";
+import {jsonTransformerFormatter, jsonTransformerFormatterArray} from '/manual_qa_test/js/api/transformers/api-json-transformer.js';
+import {appendRandomMessage} from "/manual_qa_test/js/ui/html-appends/random-message-append.js";
+import {appendMessagesList} from "/manual_qa_test/js/ui/html-appends/message-list-append.js";
+import {afterLoad} from "/manual_qa_test/js/ui/ui-actions/preloader.js";
+import {searchedMessages} from "/manual_qa_test/js/ui/ui-elements.js";
 
 
 let transformer = {};
