@@ -181,6 +181,10 @@
     flex-wrap: wrap;
 }
 
+.ac {
+    -webkit-tap-highlight-color: #ff0000ad;
+}
+
 .container .app .toggles .toggle {
     border: 2px solid var(--light-grey);
     border-radius: 6px;
