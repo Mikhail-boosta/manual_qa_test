@@ -13,7 +13,7 @@ export const appendMessagesList = (objectList, element) => {
         message.innerHTML += `
             <div class="message-body">
                 <div class="message-icon">
-                    <img alt="Message Icon" src="../assets/icons/messageOutline.svg"/>
+                    <img alt="Message Icon" src="/manual_qa_test/assets/icons/messageOutline.svg"/>
                 </div>
                 <div class="message-info">
                     <div class="message-top-info">
@@ -22,7 +22,7 @@ export const appendMessagesList = (objectList, element) => {
                             <a class="message-link" href="${value.Url}">
                                 <span class="message-link-code">${value.Id}</span>
                                 <img class="message-link-icon" alt="Link Icon"
-                                     src="../assets/icons/linkOutline.svg"/>
+                                     src="/manual_qa_test/assets/icons/linkOutline.svg"/>
                             </a>
                         </div>
                         <div class="message-info-description">
