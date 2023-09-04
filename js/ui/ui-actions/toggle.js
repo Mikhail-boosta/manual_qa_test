@@ -1,4 +1,4 @@
-import {toggle} from "../ui-elements.js";
+import {toggle} from "/manual_qa_test/js/ui/ui-elements.js";
 
 
 let toggleList = toggle.getElementsByClassName('toggle');

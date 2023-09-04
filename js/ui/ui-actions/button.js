@@ -1,7 +1,7 @@
-import {button, radioButtonCategories, radioButtonRandom, radioButtonSearch} from "../ui-elements.js";
-import {fetchDataWithAppend, fetchDataWithListAppend} from "../../api/api-get-json.js";
-import {toggleName} from "./toggle.js";
-import {getSearchText} from "./search.js";
+import {button, radioButtonCategories, radioButtonRandom, radioButtonSearch} from "/manual_qa_test/js/ui/ui-elements.js";
+import {fetchDataWithAppend, fetchDataWithListAppend} from "/manual_qa_test/api/api-get-json.js";
+import {toggleName} from "/manual_qa_test/js/ui/ui-actions/toggle.js";
+import {getSearchText} from "/manual_qa_test/js/ui/ui-actions/search.js";
 
 
 export const executeButton = () => {

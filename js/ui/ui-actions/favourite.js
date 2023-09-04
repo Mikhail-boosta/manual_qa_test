@@ -1,13 +1,13 @@
-import {favoriteNotAdded, favouriteList} from "../ui-elements.js";
-import {checkIfFavouriteIndexExist, storeFavouriteObject} from "../../store/favourite-store.js";
-import {transformer} from "../../api/api-get-json.js";
-import {appendMessagesList} from "../html-appends/message-list-append.js";
-import {favouriteMessages} from "../ui-elements.js";
-import {storedObjectArray} from "../../store/favourite-store.js";
+import {favoriteNotAdded, favouriteList} from "/manual_qa_test/js/ui/ui-elements.js";
+import {checkIfFavouriteIndexExist, storeFavouriteObject} from "/manual_qa_test/js/store/favourite-store.js";
+import {transformer} from "/manual_qa_test/js/api/api/api-get-json.js";
+import {appendMessagesList} from "/manual_qa_test/js/ui/html-appends/message-list-append.js";
+import {favouriteMessages} from "/manual_qa_test/js/ui/ui-elements.js";
+import {storedObjectArray} from "/manual_qa_test/js/store/favourite-store.js";
 
 
-const favouriteOutlineIconPath = '../assets/icons/favouriteOutline.svg';
-const favouriteFilledIconPath = '../assets/icons/favouriteFilled.svg';
+const favouriteOutlineIconPath = '/manual_qa_test/assets/icons/favouriteOutline.svg';
+const favouriteFilledIconPath = '/manual_qa_test/assets/icons/favouriteFilled.svg';
 
 const changeFavouriteIconIfExistOnStore = (id, element) => {
     return checkIfFavouriteIndexExist(id) !== -1 ?

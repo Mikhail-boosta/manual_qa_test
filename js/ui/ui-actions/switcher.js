@@ -1,6 +1,6 @@
-import {radioButtonRandom, radioButtonCategories, radioButtonSearch, searchedMessages, randomMessages} from '/js/ui/ui-elements.js';
-import {disableToggle, enableToggle} from "/js/ui/ui-actions/toggle.js";
-import {disableSearch, enableSearch} from "/js/ui/ui-actions/search.js";
+import {radioButtonRandom, radioButtonCategories, radioButtonSearch, searchedMessages, randomMessages} from '/manual_qa_test/js/ui/ui-elements.js';
+import {disableToggle, enableToggle} from "/manual_qa_test//js/ui/ui-actions/toggle.js";
+import {disableSearch, enableSearch} from "/manual_qa_test/js/ui/ui-actions/search.js";
 
 
 const shownMainBlocks = (randomDisplay, searchedDisplay) => {

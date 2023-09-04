@@ -1,4 +1,4 @@
-import {search} from "../ui-elements.js";
+import {search} from "/manual_qa_test/js/ui/ui-elements.js";
 
 
 const minCharSize = 3;

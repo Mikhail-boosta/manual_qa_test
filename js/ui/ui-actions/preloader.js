@@ -1,4 +1,4 @@
-import {preloader} from '../ui-elements.js';
+import {preloader} from '/manual_qa_test/js/ui/ui-elements.js';
 
 
 export const afterLoad = () => {

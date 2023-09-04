@@ -1,4 +1,4 @@
-import {burgerMenu, favouriteContainer, closeMenu, burgerShadow} from "../ui-elements.js";
+import {burgerMenu, favouriteContainer, closeMenu, burgerShadow} from "/manual_qa_test/js/ui/ui-elements.js";
 
 
 const burgerMenuSettings = (displayType, animation) => {
